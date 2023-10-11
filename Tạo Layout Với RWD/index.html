@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS RWD2</title>
+        <style>
+        body{
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+        header, footer{
+            height:5%;
+            background-color: black;
+            color: white;
+        }
+        main{            
+            height: 90%;
+            /* background-color: blanchedalmond; */
+        }
+        .header_nav{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .header_nav  ul{
+            display: flex;
+            list-style: none; 
+            margin: 0;
+            padding: 0;   
+        }
+        .header_nav  ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        .header_nav  button{
+            width: 100px ;
+        }
+        .header_nav ul li:hover{
+            background-color: brown;
+        }
+        .header_nav  ul li{
+            padding: 12px 20px;
+            margin: 0;                   
+        }
+        .main_content{
+            display: flex;
+        }
+        .content_1, .content_3{
+            width: 20%;
+            background-color: antiquewhite;
+        }
+        .content_2{
+            width: 60%;
+            padding: 20px;
+        }
+        .content_1 ul{
+            list-style: none;
+        }
+        .content_1 ul li a{
+            text-decoration: none;
+        }
+        .content_1 ul li{
+            padding: 10px 35px;
+        }
+        .content_3{
+            text-align: center;
+            
+        }
+        .footer_btn{
+            margin: 30px;
+            font-size: 50px;
+        }
+        .main_content{
+            height: 100%;
+        }
+        .content_1, .content_2, .content_3{
+            height: 100%;
+        }
+        footer h1{
+            margin: 0;
+            text-align: center;
+        }
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <div class="header_nav">
+
+                <ul>
+                    <li>
+                        <a href>Logo</a></li>
+                    <li>
+                        <a href>Home</a></li>
+                    <li>
+                        <a href>About</a></li>
+                    <li><a href>Projects</a></li>
+                    <li><a href>Contact</a></li>
+                </ul>
+                <button type="submit">Login</button>
+            </div>
+        </header>
+        <main>
+            <div class="main_content">
+                <div class="content_1">
+                    <ul>
+                        <li><a href>LINK</a></li>
+                        <li><a href>LINK</a></li>
+                        <li><a href>LINK</a></li>
+                    </ul>
+                </div>
+                <div class="content_2">
+                    <h1>Welcome</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Quas, laudantium. Possimus blanditiis pariatur id
+                        laboriosam optio, odit obcaecati, cupiditate corrupti
+                        deserunt dolore non officia dolor quas rerum numquam
+                        ratione ipsum! Praesentium, sapiente qui optio delectus
+                        natus necessitatibus, fugit eligendi inventore nisi ea
+                        maiores laborum rem, odio quibusdam quaerat eveniet
+                        similique voluptatum atque recusandae aliquam voluptates
+                        sequi voluptatem! Veniam sunt, quibusdam, sequi
+                        voluptatum expedita aut debitis quisquam soluta quo
+                        nostrum qui maxime? Dignissimos deleniti distinctio
+                        facere eos. Explicabo, culpa, sed enim laboriosam
+                        debitis non aliquid quibusdam voluptatem voluptatibus,
+                        quam doloremque. Ab sapiente quibusdam quam, nulla
+                        quisquam earum mollitia qui voluptatem odio.</p>
+                        <hr>
+                    <h3>Test</h3>
+                    <p>Lorem is pum.</p>
+                </div>
+                <div class="content_3">
+                    <div>
+                        <button class="footer_btn" type="submit">ADS</button>
+                    </div>
+                    <div>
+                        <button class="footer_btn" type="submit">ADS</button>
+                    </div>                    
+                </div>
+                
+            </div>
+        </main>
+        <footer>
+            <h1>&copy; Coppy Right 2023</h1>
+        </footer>
+
+    </body>
+</html>
